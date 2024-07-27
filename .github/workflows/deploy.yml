@@ -26,5 +26,5 @@ jobs:
         with:
           folder: angular-github-actions/dist/browser
           base_branch: main
-          branch: feature/automate   
+          branch: prod   
           token: ${{ secrets.GH_TOKEN }}
