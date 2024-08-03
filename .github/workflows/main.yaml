@@ -24,6 +24,14 @@ jobs:
       - name: Build Angular App
         run : npm run build
         
+      - name: Archieve Production Artifacts
+        uses : actions/upload-artifact@v4
+        with : 
+          name : Angular-Builded
+          path : |
+            dist
+            !dist/**/*.md
+
       # - name: Deploy to gh page
       #   run : |
       #       npx angular-cli-ghpages --dir=dist/angular-gihub-actions
