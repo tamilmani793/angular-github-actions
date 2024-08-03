@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --aot --base-href https://tamilmani793.github.io/angular-github-actions/",
+    "build": "ng build --configuration production --aot --base-href https://tamilmani793.github.io/angular-github-actions/",
     "build:prod": "ng build --configuration=production --base-href=/angular-github-actions/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
