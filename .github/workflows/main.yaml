@@ -35,7 +35,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-              folder: dist/browser
+              folder: dist/angular-gihub-actions/browser
               branch: prod  
               token: ${{ secrets.GH_TOKEN }}
       # - name: Deploy to gh page
